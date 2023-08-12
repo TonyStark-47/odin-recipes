@@ -1,0 +1,39 @@
+body{
+	background-color: #66B032;
+}
+
+h1{
+	color: #B2D732; 
+	text-decoration: underline;
+	text-align: center;
+	font-size: 90px;
+	font-family: "Times New Roman" , sans-serif;
+}
+
+.content {
+	background-color: #F0F7D4;
+	text-align: center;
+	font-size: 28px;
+}
+
+.list-content{
+	display: inline-block;
+	text-align: center;
+}
+
+
+img{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.heading {
+	color: #092834;
+	font-size: 50px;
+	padding: 20px;
+}
