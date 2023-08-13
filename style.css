@@ -30,7 +30,25 @@ h1{
 	font-family: "Times New Roman" , sans-serif;
 
 	text-shadow: 6px 6px 5px #092834;
+	
 }
+
+a h1 {
+	background-image: url("images/ramen.png"), url("images/salad.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left top, right top;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-attachment: scroll;
+	background-size: 100px;
+}
+
+.heading {
+	color: #F0F7D4;
+	font-size: 50px;
+	padding: 20px;
+}
+
 p {
 	text-align: left;
 }
@@ -93,8 +111,3 @@ img:hover {
 	opacity: 0.6;
 }
 
-.heading {
-	color: #F0F7D4;
-	font-size: 50px;
-	padding: 20px;
-}
