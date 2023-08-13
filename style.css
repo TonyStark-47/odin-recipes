@@ -74,11 +74,21 @@ p {
 #list-content{
 	display: inline-block;
 	color: #347B98;
+	font-weight: bold;
 }
+
+div ol li {
+	padding-bottom: 30px;
+	padding-top: 70px;
+}
+
 .list-content{
 	text-align: left;
 	display: inline-block;
 	color: #347B98;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 a {
@@ -87,7 +97,7 @@ a {
 }
 
 img{
-	width: 600px;
+	width: 500px;
 	height: auto;
 	border-radius: 10px;
 	display: block;
